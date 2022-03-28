@@ -1,17 +1,14 @@
-<!-- ultima interação pagina 136 exercicio 8 -->
+<!-- ultima interação pagina 153 exercicio 4 -->
 <!DOCTYPE html>
 <html lang="pt-br">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width">
-    <title>Mirror Fashion</title>
+    <title><?php print $cabecalho_title; ?></title>
 
     <link rel="stylesheet" href="css/reset.css">
     <link rel="stylesheet" href="css/estilos.css">
     <link rel="stylesheet" href="css/mobile.css" media="(max-width: 939px)">
-
-    
-    
 </head>
 
 <body>

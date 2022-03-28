@@ -2,19 +2,34 @@
 <!DOCTYPE html>
 <html lang="pt-br">
 <head>
-    <meta charset="UTF-8">    
+    <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width">
     <title>Mirror Fashion</title>
 
     <link rel="stylesheet" href="css/reset.css">
     <link rel="stylesheet" href="css/sobre.css">
-    <link rel="stylesheet" href="css/estilos.css">
     <link rel="stylesheet" href="css/mobile.css" media="(max-width: 939px)">
-    
-   
 </head>
+
+
 <body>
-    <?php include("cabecalho.php"); ?>
+<header class="container">
+        <h1><img src="img/logo.png" alt="Mirror Fashion"></h1>
+
+        <p class="sacola">
+            Nenhum item na sacola de compras
+        </p>
+
+        <nav class="menu-opcoes">
+            <ul>
+                <li><a href="#">Sua Conta</a></li>
+                <li><a href="#">Lista de Desejos</a></li>
+                <li><a href="#">Cartão Fidelidade</a></li>
+                <li><a href="#">Sobre</a></li>
+                <li><a href="#">Ajuda</a></li>
+            </ul>
+        </nav><!-- fim cabeçalho -->
+    </header>
  
     <h1>A Mirror Fashion</h1>
     <p>A <strong>Mirror Fashion</strong> é a maior empresa comércio eletrônico no segmento de moda em todo o mundo. 
@@ -66,6 +81,16 @@
         &copy; Copyright Mirror Fashion
     </div>
 
-    <?php include("rodape.php"); ?>
+    <footer>
+    <div class="container">
+        <img src="img/logo-rodape.png" alt="Logo Mirror Fashion">
+
+        <ul class="social">
+            <li><a href="http://facebook.com/mirrorfashion">Facebook</a></li>
+            <li><a href="http://twitter.com/mirrorfashion">Twitter</a></li>
+            <li><a href="http://plus.google.com/mirrorfashion">Google+</a></li>
+        </ul>
+    </div>
+</footer>
 </body>
 </html>
